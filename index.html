@@ -3,26 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kirti Vaswani - Senior Product Leader</title>
+    <title>Kirti Vaswani - Senior Product Manager & Executive Leader</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Small scoped styles for About section: moved from inline to head for quick deploy -->
     <style>
         /* Center and constrain About section */
         .about-content {
-            max-width: 1000px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 20px;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: var(--spacing-xxl);
+            align-items: start;
+        }
+        .about-text {
+            text-align: justify;
+        }
+        .about-highlights {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-lg);
         }
         @media (min-width: 1400px) {
-            .about-content { max-width: 1100px; }
+            .about-content { max-width: 1300px; }
+        }
+        @media (max-width: 900px) {
+            .about-content { grid-template-columns: 1fr; padding: 0 20px; }
+            .about-highlights { grid-template-columns: 1fr; }
         }
         @media (max-width: 700px) {
             .about-content { grid-template-columns: 1fr; padding: 0 12px; }
             .about-highlights { grid-template-columns: 1fr; }
+            .about-text { text-align: left; }
         }
     </style>
 </head>
@@ -94,7 +108,7 @@
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <img src="https://github.com/codewithme77.png" alt="Kirti Vaswani" style="width: 350px; height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 60px rgba(0, 122, 255, 0.12);">
+                    <img src="https://github.com/codewithme77.png" alt="Kirti Vaswani" style="width: 350px; height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 60px rgba(0, 122, 204, 0.3);">
                 </div>
             </div>
         </div>
@@ -111,35 +125,34 @@
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        I am a results-driven Senior Product Leader with 19+ years of comprehensive experience spanning product strategy, business development and technology leadership. Over the past [...]
+                        I am a results-driven Senior Product Leader with 19+ years of comprehensive experience spanning product strategy, business development and technology leadership. Over the past decade, I've focused on building scalable product ecosystems and driving revenue growth.
                     </p>
                     <p>
-                        My expertise spans the complete product lifecycle: from market research and competitive analysis to product discovery, roadmapping, delivery and go-to-market strategy. I excel [...]
+                        My expertise spans the complete product lifecycle: from market research and competitive analysis to product discovery, roadmapping, delivery and go-to-market strategy. I excel at translating complex business challenges into actionable product strategies.
                     </p>
                     <p>
-                        Across Maersk, Jio Platforms, and Hewlett Packard Enterprise, I've led product at the intersection of scale, complexity, and applied AI — building agentic AI ecosystems, driv[...]
+                        Across Maersk, Jio Platforms, and Hewlett Packard Enterprise, I've led product at the intersection of scale, complexity, and applied AI — building agentic AI ecosystems, driving multi-hundred-million-dollar revenue initiatives, and developing world-class product teams.
                     </p>
                     <p>
                         I'm now targeting the frontier of AI Builder PM — where product leadership means designing systems of intelligence, not just feature roadmaps.
                     </p>
-
-                    <div class="about-highlights">
-                        <div class="highlight">
-                            <h3>Strategic Vision</h3>
-                            <p>Developing and executing product strategies that align with business objectives</p>
-                        </div>
-                        <div class="highlight">
-                            <h3>Data-Driven</h3>
-                            <p>Leveraging analytics and insights to make informed product decisions</p>
-                        </div>
-                        <div class="highlight">
-                            <h3>Team Leadership</h3>
-                            <p>Building and scaling high-performance product teams with mentoring focus</p>
-                        </div>
-                        <div class="highlight">
-                            <h3>Customer Obsession</h3>
-                            <p>Deep commitment to understanding and solving real customer problems</p>
-                        </div>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <h3>Strategic Vision</h3>
+                        <p>Developing and executing product strategies that align with business objectives</p>
+                    </div>
+                    <div class="highlight">
+                        <h3>Data-Driven</h3>
+                        <p>Leveraging analytics and insights to make informed product decisions</p>
+                    </div>
+                    <div class="highlight">
+                        <h3>Team Leadership</h3>
+                        <p>Building and scaling high-performance product teams with mentoring focus</p>
+                    </div>
+                    <div class="highlight">
+                        <h3>Customer Obsession</h3>
+                        <p>Deep commitment to understanding and solving real customer problems</p>
                     </div>
                 </div>
             </div>
