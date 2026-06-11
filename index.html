@@ -6,6 +6,25 @@
     <title>Kirti Vaswani - Senior Product Leader</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Small scoped styles for About section: moved from inline to head for quick deploy -->
+    <style>
+        /* Center and constrain About section */
+        .about-content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-xxl);
+        }
+        @media (min-width: 1400px) {
+            .about-content { max-width: 1100px; }
+        }
+        @media (max-width: 700px) {
+            .about-content { grid-template-columns: 1fr; padding: 0 12px; }
+            .about-highlights { grid-template-columns: 1fr; }
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation -->
@@ -75,7 +94,7 @@
                     </div>
                 </div>
                 <div class="hero-visual">
-                    <img src="https://github.com/codewithme77.png" alt="Kirti Vaswani" style="width: 350px; height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 60px rgba(0, 1[...]
+                    <img src="https://github.com/codewithme77.png" alt="Kirti Vaswani" style="width: 350px; height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 60px rgba(0, 122, 255, 0.12);">
                 </div>
             </div>
         </div>
@@ -89,17 +108,16 @@
                 <p>Product Management Executive</p>
             </div>
 
-            <!-- Centered container: limit max-width and auto margins so the About content sits in the middle -->
-            <div class="about-content" style="max-width:1000px; margin:0 auto;">
+            <div class="about-content">
                 <div class="about-text">
                     <p>
-                        I am a results-driven Senior Product Leader with 19+ years of comprehensive experience spanning product strategy, business development and technology leadership. Over the p[...]
+                        I am a results-driven Senior Product Leader with 19+ years of comprehensive experience spanning product strategy, business development and technology leadership. Over the past [...]
                     </p>
                     <p>
-                        My expertise spans the complete product lifecycle: from market research and competitive analysis to product discovery, roadmapping, delivery and go-to-market strategy. I ex[...]
+                        My expertise spans the complete product lifecycle: from market research and competitive analysis to product discovery, roadmapping, delivery and go-to-market strategy. I excel [...]
                     </p>
                     <p>
-                        Across Maersk, Jio Platforms, and Hewlett Packard Enterprise, I've led product at the intersection of scale, complexity, and applied AI — building agentic AI ecosystems,[...]
+                        Across Maersk, Jio Platforms, and Hewlett Packard Enterprise, I've led product at the intersection of scale, complexity, and applied AI — building agentic AI ecosystems, driv[...]
                     </p>
                     <p>
                         I'm now targeting the frontier of AI Builder PM — where product leadership means designing systems of intelligence, not just feature roadmaps.
