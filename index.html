@@ -1,545 +1,332 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Kirti Vaswani | Senior Product Manager</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Scoped styles for About section -->
-    <style>
-        .about-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: var(--spacing-xxl);
-            align-items: start;
-        }
-        .about-text {
-            text-align: justify;
-        }
-        .about-highlights {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: var(--spacing-lg);
-        }
-        @media (min-width: 1400px) {
-            .about-content { max-width: 1300px; }
-        }
-        @media (max-width: 900px) {
-            .about-content { grid-template-columns: 1fr; padding: 0 20px; }
-            .about-highlights { grid-template-columns: 1fr; }
-        }
-        @media (max-width: 700px) {
-            .about-content { grid-template-columns: 1fr; padding: 0 12px; }
-            .about-highlights { grid-template-columns: 1fr; }
-            .about-text { text-align: left; }
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kirti Vaswani is an AI and enterprise product leader who builds 0-to-1 platforms and scales workflow transformation into measurable commercial outcomes.">
+  <meta property="og:title" content="Kirti Vaswani | AI & Enterprise Product Leader">
+  <meta property="og:description" content="19+ years building enterprise products across Maersk, Jio and HPE. $50M+ revenue growth, $12M+ cost savings and practical AI product builds.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://codewithme77.github.io/Kirti-Vaswani-Portfolio-github/">
+  <meta property="og:image" content="https://codewithme77.github.io/Kirti-Vaswani-Portfolio-github/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Kirti Vaswani | AI & Enterprise Product Leader">
+  <meta name="twitter:description" content="0-to-1 platforms, enterprise AI and measurable commercial outcomes.">
+  <meta name="twitter:image" content="https://codewithme77.github.io/Kirti-Vaswani-Portfolio-github/og.png">
+  <meta name="theme-color" content="#fdfcfb">
+  <title>Kirti Vaswani | AI & Enterprise Product Leader</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kirti Vaswani",
+    "jobTitle": "Senior Product Manager",
+    "url": "https://codewithme77.github.io/Kirti-Vaswani-Portfolio-github/",
+    "image": "https://codewithme77.github.io/Kirti-Vaswani-Portfolio-github/assets/kirti-vaswani.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/kirtivaswani/",
+      "https://github.com/codewithme77"
+    ],
+    "knowsAbout": ["Enterprise AI", "Product Strategy", "CRM and CX Automation", "Platform Products", "Monetization", "Product-Led Growth"]
+  }
+  </script>
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <span class="logo-icon">◆</span>
-                <span>KV</span>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
-                <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#certifications" class="nav-link">Certifications & Education</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-            <div class="nav-toggle">
-                <button class="theme-toggle" id="themeToggle">
-                    <i class="fas fa-moon"></i>
-                </button>
-                <button class="menu-toggle" id="menuToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-            </div>
-        </div>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a class="wordmark" href="#top" aria-label="Kirti Vaswani home">Kirti Vaswani</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#impact">Impact</a>
+        <a href="#ai-projects">Case Studies</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a class="nav-cta" href="#contact">Get in touch</a>
+      </div>
     </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">Kirti Vaswani</h1>
-                    <p class="hero-subtitle"> Senior Product Manager | AI Product Development • Digital Transformation </p>
-                    <p class="hero-description">Senior Product Manager with 19+ years in enterprise technology and 9+ years in product leadership across enterprise AI CRM automation, Billing platform and Conversational Intelligence. Led cross-functional execution delivering $50M+ revenue growth and $12M+ cost savings.</p>
-                    
-                    <div class="hero-metrics">
-                        <div class="metric-card">
-                            <h3>$50M+</h3>
-                            <p>Revenue Growth</p>
-                        </div>
-                        <div class="metric-card">
-                            <h3>$12M+</h3>
-                            <p>Cost Savings</p>
-                        </div>
-                        <div class="metric-card">
-                            <h3>45M</h3>
-                            <p>Cases Scaled</p>
-                        </div>
-                        <div class="metric-card">
-                            <h3>6% → 17%</h3>
-                            <p>AI Adoption</p>
-                        </div>
-                    </div>
-
-                    <div class="hero-social">
-                        <a href="https://www.linkedin.com/in/kirtivaswani/" target="_blank" class="social-link" title="LinkedIn">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/codewithme77" target="_blank" class="social-link" title="GitHub">
-                            <i class="fab fa-github"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-visual">
-                    <img src="https://github.com/codewithme77.png" alt="Kirti Vaswani" style="width: 350px; height: 450px; object-fit: cover; border-radius: 12px; box-shadow: 0 20px 60px rgba(0, 122, 204, 0.3);">
-                </div>
-            </div>
+  <main id="main-content">
+    <section class="hero shell" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">AI · Enterprise Platforms · Commercial Scale</p>
+        <h1>I turn complex workflows into <em>measurable outcomes.</em></h1>
+        <p class="hero-description">Senior product leader with 19+ years in enterprise technology and 9+ years in product leadership. I build 0→1 platforms, scale AI-enabled customer operations and connect product strategy to revenue, adoption and efficiency.</p>
+        <div class="hero-actions">
+          <a class="text-link" href="#case-studies">View case studies <span aria-hidden="true">→</span></a>
+          <a class="button-link" href="#contact">Let’s connect</a>
         </div>
+      </div>
+
+      <aside class="hero-proof" aria-label="Selected career outcomes">
+        <div><strong>$50M+</strong><span>Revenue growth</span></div>
+        <div><strong>$12M+</strong><span>Cost savings</span></div>
+        <div><strong>45M</strong><span>Cases scaled</span></div>
+      </aside>
+
+      <a class="scroll-cue" href="#about">Scroll to explore <span aria-hidden="true">↓</span></a>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>About Me</h2>
-                <p>Product Management Executive</p>
-            </div>
-
-            <div class="about-content">
-                <div class="about-text">
-                    <p>
-                        Senior Product Manager with 19+ years in enterprise technology and 9+ years in product leadership across enterprise AI CRM automation, Billing platform and Conversational Intelligence.
-                    </p>
-                    <p>
-                        Led 0→1 products driving revenue growth, monetization, and engagement. Expert in converting complex customer workflows into measurable revenue growth, adoption, efficiency, and commercial outcomes.
-                    </p>
-                    <p>
-                        Across Maersk, Jio Platforms, and Hewlett Packard Enterprise, I have led cross-functional execution delivering $50M+ revenue growth and $12M+ cost savings, scaling LLM-enabled workflows across 45M cases while leading product teams.
-                    </p>
-                </div>
-                <div class="about-highlights">
-                    <div class="highlight">
-                        <h3>AI Product Development</h3>
-                        <p>Scaling LLM powered intelligent automation, evaluation frameworks</p>
-                    </div>
-                    <div class="highlight">
-                        <h3>0→1 Product Growth</h3>
-                        <p>Drove Monetization, Subscription engines and billing platforms from vision to scale</p>
-                    </div>
-                    <div class="highlight">
-                        <h3>Product Leadership</h3>
-                        <p>Mentoring product managers and instituting OKRs, analytics and experimentation rigor</p>
-                    </div>
-                    <div class="highlight">
-                        <h3>Workflow Transformation</h3>
-                        <p>Converting complex enterprise workflows into measurable revenue and SG&A savings</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="intro shell" id="about">
+      <div class="portrait-wrap">
+        <img src="assets/kirti-vaswani.jpg" alt="Kirti Vaswani" width="460" height="460">
+      </div>
+      <div class="intro-copy">
+        <span class="section-kicker">About</span>
+        <h2>Hi, I’m Kirti.</h2>
+        <p>I lead products where enterprise complexity, customer experience and commercial accountability meet.</p>
+        <p>At Maersk, I own strategy and execution for AI-enabled CRM, customer experience and workflow platforms. The work spans Salesforce-integrated products, LLM-enabled automation, AI voice, intelligent routing and the evaluation systems needed to operate them responsibly.</p>
+        <p>Before that, I led growth and monetization for JioMeet and built usage-based billing products for HPE GreenLake. The through-line is consistent: find the leverage point, mobilize the system around it and deliver an outcome the business can measure.</p>
+      </div>
     </section>
 
-    <!-- Key Achievements Section -->
-    <section id="achievements" class="achievements">
-        <div class="container">
-            <div class="section-header">
-                <h2>Career Impact</h2>
-                <p>Quantifiable Outcomes & Executive Performance Metrics</p>
-            </div>
-
-            <div class="achievements-grid">
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3>Revenue Growth</h3>
-                    <p class="metric">$50M+</p>
-                    <p class="description">Delivered through Salesforce-based AI platform and O2C transformation</p>
-                </div>
-
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-dollar-sign"></i>
-                    </div>
-                    <h3>Cost Savings</h3>
-                    <p class="metric">$12M+</p>
-                    <p class="description">Generated via AI-first workflow automation and case migrations</p>
-                </div>
-
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-layer-group"></i>
-                    </div>
-                    <h3>Cases Scaled</h3>
-                    <p class="metric">45M</p>
-                    <p class="description">LLM-enabled Chat and Email workflow automation scaled globally</p>
-                </div>
-
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>AI Adoption Rate</h3>
-                    <p class="metric">6% → 17%</p>
-                    <p class="description">Increased adoption across workflows, reducing manual workload</p>
-                </div>
-
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-file-invoice-dollar"></i>
-                    </div>
-                    <h3>Revenue Recovered</h3>
-                    <p class="metric">$35M+</p>
-                    <p class="description">Outstanding revenue recovered via digitized O2C billing platform</p>
-                </div>
-
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-wallet"></i>
-                    </div>
-                    <h3>Revenue Portfolio</h3>
-                    <p class="metric">$10M</p>
-                    <p class="description">Portfolio owned with subscription model delivering 15% revenue uplift</p>
-                </div>
-
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-headset"></i>
-                    </div>
-                    <h3>Support Reduction</h3>
-                    <p class="metric">8%</p>
-                    <p class="description">Support demand reduced by automating high-friction user journeys</p>
-                </div>
-
-                <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-users-cog"></i>
-                    </div>
-                    <h3>Team Mentored</h3>
-                    <p class="metric">3 PMs</p>
-                    <p class="description">Product managers led with OKRs, experimentation, and cadence</p>
-                </div>
-            </div>
-        </div>
+    <section class="section shell" id="impact">
+      <div class="section-heading">
+        <span>Impact</span>
+        <h2>Measurable outcomes</h2>
+        <p>Quantified results from building and scaling enterprise platforms, AI-enabled workflows and commercial products.</p>
+      </div>
+      <div class="impact-grid">
+        <article><strong>$50M+</strong><h3>Revenue growth</h3><p>Salesforce-based AI platform and workflow transformation.</p></article>
+        <article><strong>$12M+</strong><h3>Cost savings</h3><p>AI-first automation, routing and case migration.</p></article>
+        <article><strong>$35M+</strong><h3>Revenue recovered</h3><p>0→1 Order-to-Cash billing and collections platform.</p></article>
+        <article><strong>45M</strong><h3>Cases scaled</h3><p>LLM-enabled chat and email workflows across global operations.</p></article>
+        <article><strong>6% → 17%</strong><h3>AI adoption</h3><p>Scaled adoption through workflow integration and quality measurement.</p></article>
+        <article><strong>15%</strong><h3>Revenue uplift</h3><p>Subscription-led monetization for a $10M portfolio.</p></article>
+        <article><strong>37%</strong><h3>Fewer disputes</h3><p>Transparent, self-service billing in HPE GreenLake.</p></article>
+        <article><strong>3 PMs</strong><h3>Product leaders mentored</h3><p>OKRs, experimentation and outcome-based product cadence.</p></article>
+      </div>
     </section>
 
-    <!-- Professional Experience Section -->
-    <section id="experience" class="experience">
-        <div class="container">
-            <div class="section-header">
-                <h2>Professional Experience</h2>
-                <p>Track Record of Product Leadership and Innovation</p>
+    <section class="section shell" id="ai-projects">
+      <div class="section-heading">
+        <span>AI Projects</span>
+        <h2>Deep dives into key projects</h2>
+        <p>Working products that demonstrate problem framing, user experience, technical orchestration and end-to-end delivery. Select a project to see the complete product story.</p>
+      </div>
+
+      <div class="case-list">
+        <article class="case-card featured-case">
+          <button class="case-trigger" type="button" aria-expanded="true" aria-controls="project-jobmatcher">
+            <span class="case-number">01</span>
+            <span class="case-title"><small>Intelligent matching MVP</small><strong>Job Match Engine</strong><em>Reducing fragmented search for senior product roles</em></span>
+            <span class="case-metrics"><span><strong>3</strong><small>Job sources</small></span><span><strong>Live</strong><small>Working MVP</small></span></span>
+            <span class="case-toggle" aria-hidden="true">−</span>
+          </button>
+          <div class="case-panel" id="project-jobmatcher">
+            <div class="story-grid">
+              <div><h4>Problem Statement</h4><p>Senior product candidates spend significant time searching fragmented job sources and manually deciding whether each role fits their skills, seniority, location and work preferences.</p></div>
+              <div><h4>User Persona</h4><p>Senior, Principal, Group and Director-level product candidates looking for relevant roles without repeating the same search and comparison work across multiple boards.</p></div>
+              <div><h4>Infrastructure Used</h4><p>Lovable-hosted interface, FastAPI backend on Render, parallel aggregation across JSearch, Arbeitnow and RemoteOK, PyMuPDF resume parsing and RapidFuzz weighted matching.</p></div>
+              <div><h4>Skills & Tools</h4><p>Product framing, journey design, API orchestration, resume parsing, ranking logic, full-stack prototyping, deployment and iterative testing.</p></div>
+              <div><h4>Problems It Solves</h4><ul><li>Consolidates multiple job sources into one flow.</li><li>Extracts relevant skills from a resume.</li><li>Ranks roles by role, domain, location, experience and work-model fit.</li><li>Filters weak matches so users can focus on stronger opportunities.</li></ul></div>
+              <div><h4>Product Approach</h4><p>A transparent, deterministic scoring system was chosen for the current MVP so users can understand the dimensions behind each match. The product is an AI-assisted build and an intelligent matching engine, not an LLM-based recommender.</p></div>
             </div>
+            <div class="case-links"><a href="https://jobmatchengine.lovable.app/" target="_blank" rel="noreferrer">Try the live product <span aria-hidden="true">↗</span></a><a href="https://github.com/codewithme77/jobmatcher-backend" target="_blank" rel="noreferrer">View source <span aria-hidden="true">↗</span></a></div>
+            <blockquote>Build the smallest complete decision loop first; make the logic explainable before making it more complex.</blockquote>
+          </div>
+        </article>
 
-            <div class="timeline">
-                <!-- AI PM Builder (Latest Role) -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-period">2026 - Present</div>
-                        <h3>AI PM Builder</h3>
-                        <p class="company">Independent Projects</p>
-                        <ul class="responsibilities">
-                            <li>Built <a href="https://jobmatchengine.lovable.app/" target="_blank" rel="noopener noreferrer">JobMatcher</a>, a full-stack AI-powered job search app (FastAPI backend, multi-source API orchestration across JSearch, Arbeitnow, RemoteOK) deployed on Render with PostgreSQL/Supabase.</li>
-                            <li>Engineered and hosted a <a href="https://codewithme77.github.io/Kirti-Vaswani-Portfolio-github/" target="_blank" rel="noopener noreferrer">personal work experience portfolio</a> from scratch on GitHub, utilizing Git version control and modern web design best practices.</li>
-                            <li>Designed and deployed an n8n-based automation pipeline for daily AI-scored job alerts — scoring logic, deduplication and HTML digest generation — hands-on agentic workflow prototyping outside a formal engineering team.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Maersk -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-period">Apr 2023 - Feb 2026</div>
-                        <h3>Senior Product Manager - Logistics AI Platform</h3>
-                        <p class="company">Maersk</p>
-                        <ul class="responsibilities">
-                            <li>Owned CRM platform product strategy, investment roadmap and execution for a Salesforce AI platform, delivering $50M+ revenue growth and $12M+ cost savings.</li>
-                            <li>Built 0-to-1 Order-to-Cash (O2C) Salesforce-integrated platform digitizing billing and collections to recover $35M+ outstanding revenue.</li>
-                            <li>Scaled LLM Chat and Email workflow automation across 45M cases, increasing adoption from 6% to 17%.</li>
-                            <li>Launched an AI voice MVP orchestrating intent recognition, decisioning and action for real-time service resolution.</li>
-                            <li>Built AI translation and intelligent routing workflows; onboarded 5k agents and migrated 8M cases to lower-cost centers for SG&A savings.</li>
-                            <li>Led P&L business cases, quarterly roadmaps, and prioritization balancing outcomes, technical feasibility, and delivery risk.</li>
-                            <li>Established an AI product Dashboard tracking autonomy rate, precision, and task-completion rate.</li>
-                            <li>Implemented an LLM-as-a-Judge evaluation framework to score output quality, safety, and correctness continuously.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Jio Platforms -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-period">Feb 2022 - Mar 2023</div>
-                        <h3>Senior Product Manager - Conversational Intelligence</h3>
-                        <p class="company">Jio Platforms</p>
-                        <ul class="responsibilities">
-                            <li>Led 0→1 strategy and launch of JioMeet across consumer and enterprise segments from vision through go-to-market and monetization.</li>
-                            <li>Owned a $10M revenue portfolio with subscription-led monetization, delivering 15% revenue uplift.</li>
-                            <li>Grew user adoption 30% and expanded enterprise pipeline 25% through segmentation, commercial packaging, and freemium conversion.</li>
-                            <li>Optimized onboarding and activation funnels using product analytics, reducing early churn and improving first-use activation.</li>
-                            <li>Reduced support demand 8% by launching self-service workflows and automating high-friction user journeys.</li>
-                            <li>Led and mentored 3 product managers; instituted OKRs, experimentation rigor, and an outcome-driven product cadence.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- HPE Senior PM -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-period">Dec 2019 - Jan 2022</div>
-                        <h3>Senior Product Manager - Billing Platform</h3>
-                        <p class="company">Hewlett Packard Enterprise</p>
-                        <ul class="responsibilities">
-                            <li>Built 0 to 1 pay-as-you-go Billing monetization engine and telemetry pipeline converting usage into real-time financial ledger.</li>
-                            <li>Launched live billing dashboard in HPE GreenLake Central, enabling real-time tracking, forecasting, and invoice transparency.</li>
-                            <li>Increased platform adoption by 15% and reduced invoice dispute queries by 37% through transparent self-service billing.</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Earlier Experience HPE -->
-                <div class="timeline-item">
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-period">May 2007 - Nov 2019</div>
-                        <h3>Earlier Experience</h3>
-                        <p class="company">Hewlett Packard Enterprise</p>
-                        <ul class="responsibilities">
-                            <li><strong>Technical Product Manager - Billing Platform GreenLake Cloud</strong> (May 2017 - Nov 2019)</li>
-                            <li><strong>Software Program Manager - Compute</strong> (Sep 2014 - Apr 2017)</li>
-                            <li><strong>Project Manager - Data Centre | Salesforce Service Cloud</strong> (Dec 2011 - Aug 2014)</li>
-                            <li><strong>Data Centre Consultant - Server & Storage</strong> (May 2007 - Nov 2011)</li>
-                        </ul>
-                    </div>
-                </div>
+        <article class="case-card">
+          <button class="case-trigger" type="button" aria-expanded="false" aria-controls="project-smashlab">
+            <span class="case-number">02</span>
+            <span class="case-title"><small>AI-assisted learning product</small><strong>SmashLab 05</strong><em>An offline-first five-day badminton course</em></span>
+            <span class="case-metrics"><span><strong>5</strong><small>Learning days</small></span><span><strong>0</strong><small>Sign-ins</small></span></span>
+            <span class="case-toggle" aria-hidden="true">+</span>
+          </button>
+          <div class="case-panel" id="project-smashlab" hidden>
+            <div class="story-grid">
+              <div><h4>Problem Statement</h4><p>Young intermediate players need a safe, structured way to practise badminton fundamentals without depending on expensive coaching, an account or continuous internet access.</p></div>
+              <div><h4>User Persona</h4><p>Young intermediate badminton players, with parents, guardians and coaches as supporting users.</p></div>
+              <div><h4>Infrastructure Used</h4><p>Responsive HTML, CSS and JavaScript, GitHub Pages delivery, device-local progress and a downloadable offline package.</p></div>
+              <div><h4>Skills & Tools</h4><p>Learning-journey design, progressive disclosure, quiz feedback, gamification, offline product design, responsive UX and responsible youth sports content.</p></div>
+              <div><h4>Problems It Solves</h4><ul><li>Turns an unstructured goal into a five-day progression.</li><li>Combines practical drills with corrective quizzes.</li><li>Makes progress visible through milestones and a growing trophy.</li><li>Works without an account and can run offline.</li></ul></div>
+              <div><h4>Product Approach</h4><p>One small skill per screen keeps cognitive load low. Local progress and an offline package remove connectivity and privacy barriers, while simple milestones reinforce completion.</p></div>
             </div>
-        </div>
+            <div class="case-links"><a href="https://codewithme77.github.io/Badminton-Course/" target="_blank" rel="noreferrer">Try the live course <span aria-hidden="true">↗</span></a><a href="https://github.com/codewithme77/Badminton-Course" target="_blank" rel="noreferrer">View source & offline version <span aria-hidden="true">↗</span></a></div>
+            <blockquote>Good learning products make the next useful action obvious, achievable and rewarding.</blockquote>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="container">
-            <div class="section-header">
-                <h2>Core Competencies</h2>
-                <p>Enterprise AI, Platform Strategy & Leadership Skills</p>
+    <section class="section shell" id="case-studies">
+      <div class="section-heading">
+        <span>Leadership Case Studies</span>
+        <h2>Where ownership shows</h2>
+        <p>Selected enterprise initiatives framed around context, accountability, decisions, execution and measurable result.</p>
+      </div>
+
+      <div class="case-list">
+        <article class="case-card">
+          <button class="case-trigger" type="button" aria-expanded="false" aria-controls="case-maersk-ai">
+            <span class="case-number">01</span>
+            <span class="case-title"><small>Maersk · Enterprise AI</small><strong>Scaling AI-enabled customer operations</strong><em>From isolated automation to measurable workflow adoption</em></span>
+            <span class="case-metrics"><span><strong>45M</strong><small>Cases scaled</small></span><span><strong>6% → 17%</strong><small>AI adoption</small></span></span>
+            <span class="case-toggle" aria-hidden="true">+</span>
+          </button>
+          <div class="case-panel" id="case-maersk-ai" hidden>
+            <div class="story-grid">
+              <div><h4>Context</h4><p>Global customer operations relied on high-volume email and chat workflows spanning languages, teams and service centres. AI experiments needed to become dependable operating products.</p></div>
+              <div><h4>My Role</h4><p>Owned CRM platform strategy, investment roadmap, P&L business cases and cross-functional execution across product, engineering, data science, operations and customer service.</p></div>
+              <div><h4>Challenge</h4><p>Increase adoption without sacrificing output quality, safety or operational control across complex global workflows.</p></div>
+              <div><h4>Approach</h4><ul><li>Scaled LLM-enabled chat and email resolution.</li><li>Launched AI voice, translation and intelligent routing workflows.</li><li>Defined an AI product dashboard for autonomy, precision and task completion.</li><li>Implemented LLM-as-a-Judge evaluation for quality, safety and correctness.</li></ul></div>
+              <div><h4>Result</h4><p>Scaled across 45M cases, increased AI adoption from 6% to 17%, onboarded 5k agents and enabled the migration of 8M cases to lower-cost centres.</p></div>
+              <div><h4>Key Learning</h4><p>Enterprise AI adoption accelerates when workflow value, operational change and quality measurement are designed as one product system.</p></div>
             </div>
+            <blockquote>Adoption is not a launch metric. It is the result of trust, workflow fit and a disciplined feedback loop.</blockquote>
+          </div>
+        </article>
 
-            <div class="skills-grid">
-                <div class="skill-category">
-                    <h3>Product Strategy & Vision</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">Product Strategy & Vision</span>
-                        <span class="skill-tag">0→1 Product Development</span>
-                        <span class="skill-tag">Roadmap & Prioritization</span>
-                        <span class="skill-tag">Product Discovery</span>
-                        <span class="skill-tag">Product Analytics & KPIs</span>
-                        <span class="skill-tag">Pricing & Monetization</span>
-                        <span class="skill-tag">GTM & Commercial Packaging</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Enterprise AI & Workflows</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">Enterprise AI & LLM Products</span>
-                        <span class="skill-tag">Workflow Automation</span>
-                        <span class="skill-tag">CRM / CX Automation</span>
-                        <span class="skill-tag">LLM-as-a-Judge Evaluation</span>
-                        <span class="skill-tag">Agentic AI Workflows</span>
-                        <span class="skill-tag">AI Voice & Intent Decisioning</span>
-                        <span class="skill-tag">Intelligent Routing & Translation</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Platform & Growth Leadership</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">Platform & B2B SaaS</span>
-                        <span class="skill-tag">Experimentation & Funnel Optimization</span>
-                        <span class="skill-tag">Portfolio Economics & P&L</span>
-                        <span class="skill-tag">Executive Stakeholder Management</span>
-                        <span class="skill-tag">Agile & OKRs</span>
-                        <span class="skill-tag">Team Mentorship (3 PMs)</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>Technology & Product Environment</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">Salesforce Service Cloud</span>
-                        <span class="skill-tag">GreenLake Billing Engine</span>
-                        <span class="skill-tag">Logistics CRM AI</span>
-                        <span class="skill-tag">Collections & Order to Cash (O2C)</span>
-                        <span class="skill-tag">Conversational Intelligence</span>
-                        <span class="skill-tag">Subscription Monetization Engines</span>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3>AI Prototyping & Tech Stack</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">FastAPI Backend</span>
-                        <span class="skill-tag">n8n Automation Pipelines</span>
-                        <span class="skill-tag">PostgreSQL / Supabase</span>
-                        <span class="skill-tag">Render Deployment</span>
-                        <span class="skill-tag">Multi-source API Orchestration</span>
-                        <span class="skill-tag">AI-Scored Search & Deduplication</span>
-                    </div>
-                </div>
+        <article class="case-card">
+          <button class="case-trigger" type="button" aria-expanded="false" aria-controls="case-o2c">
+            <span class="case-number">02</span>
+            <span class="case-title"><small>Maersk · 0→1 Platform</small><strong>Digitising Order-to-Cash</strong><em>Turning billing friction into revenue recovery</em></span>
+            <span class="case-metrics"><span><strong>$35M+</strong><small>Revenue recovered</small></span><span><strong>0→1</strong><small>Platform build</small></span></span>
+            <span class="case-toggle" aria-hidden="true">+</span>
+          </button>
+          <div class="case-panel" id="case-o2c" hidden>
+            <div class="story-grid">
+              <div><h4>Context</h4><p>Billing and collections workflows lacked end-to-end transparency, leaving customers and service teams with fragmented views of invoice status and outstanding balances.</p></div>
+              <div><h4>My Role</h4><p>Led the product from business case through roadmap, prioritisation and delivery, aligning commercial, finance, service, data and engineering stakeholders.</p></div>
+              <div><h4>Challenge</h4><p>Create one Salesforce-integrated workflow that could connect post-order billing, invoice visibility and collections without disrupting critical revenue operations.</p></div>
+              <div><h4>Approach</h4><ul><li>Mapped the end-to-end customer and agent workflow.</li><li>Prioritised invoice transparency and actionable collections steps.</li><li>Sequenced delivery around revenue risk and operational readiness.</li><li>Connected the platform to the broader CRM experience.</li></ul></div>
+              <div><h4>Result</h4><p>Built the platform from 0→1 and enabled recovery of $35M+ in outstanding customer revenue.</p></div>
+              <div><h4>Key Learning</h4><p>In enterprise transformation, the highest-leverage product boundary often follows the money flow rather than the organisational chart.</p></div>
             </div>
-        </div>
+            <blockquote>Own the full outcome, not only the interface where the problem becomes visible.</blockquote>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <button class="case-trigger" type="button" aria-expanded="false" aria-controls="case-jiomeet">
+            <span class="case-number">03</span>
+            <span class="case-title"><small>Jio Platforms · Growth & Monetization</small><strong>Scaling JioMeet from product to portfolio</strong><em>Connecting adoption, packaging and commercial growth</em></span>
+            <span class="case-metrics"><span><strong>$10M</strong><small>Portfolio owned</small></span><span><strong>15%</strong><small>Revenue uplift</small></span></span>
+            <span class="case-toggle" aria-hidden="true">+</span>
+          </button>
+          <div class="case-panel" id="case-jiomeet" hidden>
+            <div class="story-grid">
+              <div><h4>Context</h4><p>JioMeet was expanding across consumer and enterprise segments and needed a product model that could translate platform adoption into repeatable commercial value.</p></div>
+              <div><h4>My Role</h4><p>As Lead Product Manager, owned 0→1 strategy, growth, go-to-market and monetization while leading and mentoring three product managers.</p></div>
+              <div><h4>Challenge</h4><p>Balance frictionless acquisition with differentiated enterprise packaging, activation and support efficiency.</p></div>
+              <div><h4>Approach</h4><ul><li>Designed subscription-led monetization and commercial packaging.</li><li>Used segmentation and freemium conversion to expand pipeline.</li><li>Improved onboarding and early activation through product analytics.</li><li>Introduced self-service workflows for high-friction journeys.</li></ul></div>
+              <div><h4>Result</h4><p>Delivered 15% revenue uplift, grew adoption 30%, expanded enterprise pipeline 25% and reduced support demand 8%.</p></div>
+              <div><h4>Key Learning</h4><p>Growth and monetization reinforce each other when packaging is designed around differentiated user value rather than feature volume.</p></div>
+            </div>
+            <blockquote>Scale comes from aligning the user’s first value moment with the business model that can sustain it.</blockquote>
+          </div>
+        </article>
+
+        <article class="case-card">
+          <button class="case-trigger" type="button" aria-expanded="false" aria-controls="case-hpe">
+            <span class="case-number">04</span>
+            <span class="case-title"><small>HPE GreenLake · Usage-Based Monetization</small><strong>Making cloud billing transparent</strong><em>From raw telemetry to a customer-facing financial product</em></span>
+            <span class="case-metrics"><span><strong>15%</strong><small>Adoption lift</small></span><span><strong>37%</strong><small>Fewer disputes</small></span></span>
+            <span class="case-toggle" aria-hidden="true">+</span>
+          </button>
+          <div class="case-panel" id="case-hpe" hidden>
+            <div class="story-grid">
+              <div><h4>Context</h4><p>Pay-as-you-go cloud services depended on converting infrastructure usage into accurate financial transactions and transparent customer invoices.</p></div>
+              <div><h4>My Role</h4><p>Owned 0→1 product strategy and delivery for the usage-based monetization engine, financial integrations and live billing experience.</p></div>
+              <div><h4>Challenge</h4><p>Join technical telemetry, pricing logic, SAP ERP workflows and customer-facing transparency into one dependable product system.</p></div>
+              <div><h4>Approach</h4><ul><li>Defined the telemetry pipeline for compute and storage usage.</li><li>Shaped rating, pricing and recurring revenue calculations.</li><li>Integrated financial workflows with SAP ERP.</li><li>Launched live usage, spend forecasting and invoice visibility in GreenLake Central.</li></ul></div>
+              <div><h4>Result</h4><p>Increased platform adoption 15% and reduced invoice dispute queries 37% through transparent, self-service billing.</p></div>
+              <div><h4>Key Learning</h4><p>Billing is not back-office plumbing; in a consumption product, it is a core customer experience.</p></div>
+            </div>
+            <blockquote>When customers can see and understand value consumption, trust becomes a product capability.</blockquote>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <!-- Certifications & Education Section -->
-    <section id="certifications" class="certifications">
-        <div class="container">
-            <div class="section-header">
-                <h2>Education & Certifications</h2>
-                <p>Academic Credentials & Professional Certifications</p>
-            </div>
-
-            <div class="certifications-grid">
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h4>Bachelor of Engineering (BE)</h4>
-                    <p class="cert-issuer">Rajasthan University</p>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h4>Salesforce AI Certified</h4>
-                    <p class="cert-issuer">Salesforce</p>
-                    <p class="cert-year">Certified</p>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h4>Certified Scrum Product Owner (CSPO)</h4>
-                    <p class="cert-issuer">Scrum Alliance</p>
-                    <p class="cert-year">Certified</p>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h4>AI Product Leader</h4>
-                    <p class="cert-issuer">Executive Certification</p>
-                    <p class="cert-year">Certified</p>
-                </div>
-
-                <div class="cert-card">
-                    <div class="cert-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h4>AI for PM</h4>
-                    <p class="cert-issuer">Professional Certification</p>
-                    <p class="cert-year">Certified</p>
-                </div>
-            </div>
-        </div>
+    <section class="section shell" id="recognition">
+      <div class="section-heading">
+        <span>Recognition</span>
+        <h2>Signals of trust</h2>
+        <p>Recognition for customer focus, delivery and team contribution.</p>
+      </div>
+      <div class="recognition-grid">
+        <article><span>Maersk</span><h3>Spot Award</h3><p>Recognised for delivering world-class customer experience and driving revenue growth.</p></article>
+        <article><span>Customer leadership</span><h3>Best Customer Centricity</h3><p>Recognition for keeping customer problems and outcomes at the centre of delivery.</p></article>
+        <article><span>Team leadership</span><h3>Engagement Champion</h3><p>Recognition for strengthening collaboration, participation and shared ownership.</p></article>
+      </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>Let's Connect</h2>
-                <p>Open to discussions, senior leadership roles, and executive opportunities</p>
-            </div>
-
-            <div class="contact-methods" style="display: flex; justify-content: center; gap: var(--spacing-xl); flex-wrap: wrap;">
-        
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fab fa-linkedin"></i>
-                    </div>
-                    <div class="contact-details">
-                        <h4>LinkedIn</h4>
-                        <a href="https://linkedin.com/in/kirtivaswani" target="_blank">linkedin.com/in/kirtivaswani</a>
-                    </div>
-                </div>
-
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fab fa-github"></i>
-                    </div>
-                    <div class="contact-details">
-                        <h4>GitHub</h4>
-                        <a href="https://github.com/codewithme77" target="_blank">github.com/codewithme77</a>
-                    </div>
-                </div>
-
-                <div class="contact-item">
-                    <div class="contact-icon">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </div>
-                    <div class="contact-details">
-                        <h4>Location</h4>
-                        <p>Bengaluru, India</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section class="section shell" id="experience">
+      <div class="section-heading">
+        <span>Experience</span>
+        <h2>Career journey</h2>
+        <p>Formal titles aligned to LinkedIn, with product scope shown separately.</p>
+      </div>
+      <div class="experience-list">
+        <article><div class="experience-period">Apr 2023 - Present</div><div><h3>Senior Product Manager</h3><p class="company">A.P. Moller - Maersk</p><p>Enterprise AI CRM/CX, Order-to-Cash and workflow automation.</p></div></article>
+        <article><div class="experience-period">Feb 2022 - Mar 2023</div><div><h3>Lead Product Manager</h3><p class="company">Jio Platforms Limited</p><p>JioMeet growth, monetization and enterprise product strategy.</p></div></article>
+        <article><div class="experience-period">Dec 2019 - Jan 2022</div><div><h3>Senior Product Manager</h3><p class="company">Hewlett Packard Enterprise</p><p>HPE GreenLake usage-based billing and monetization.</p></div></article>
+        <article><div class="experience-period">May 2017 - Nov 2019</div><div><h3>Technical Product Manager</h3><p class="company">Hewlett Packard Enterprise</p><p>Cloud billing platform and technical product delivery.</p></div></article>
+        <article><div class="experience-period">Sep 2014 - Apr 2017</div><div><h3>Engineering Program Manager</h3><p class="company">Hewlett Packard Enterprise</p><p>Compute engineering programmes and cross-functional delivery.</p></div></article>
+        <article><div class="experience-period">Dec 2011 - Aug 2014</div><div><h3>Senior Project Manager</h3><p class="company">Hewlett Packard Enterprise</p><p>Data centre and Salesforce Service Cloud initiatives.</p></div></article>
+        <article><div class="experience-period">May 2007 - Nov 2011</div><div><h3>Implementation Consultant</h3><p class="company">Hewlett Packard Enterprise</p><p>Server, storage and enterprise infrastructure implementation.</p></div></article>
+      </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h4>Kirti Vaswani</h4>
-                    <p>Senior Product Manager</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Social</h4>
-                    <div class="social-links">
-                        <a href="https://www.linkedin.com/in/kirtivaswani/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://github.com/codewithme77" target="_blank"><i class="fab fa-github"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Kirti Vaswani. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <section class="section shell" id="skills">
+      <div class="section-heading">
+        <span>Skills</span>
+        <h2>Core expertise</h2>
+        <p>Capabilities built across enterprise technology, product leadership and hands-on product creation.</p>
+      </div>
+      <div class="skills-grid">
+        <article><span>01</span><h3>Enterprise AI Products</h3><p>LLM-enabled workflows, AI voice, intelligent routing, translation and operational adoption.</p><div><small>LLM Products</small><small>AI Adoption</small><small>Workflow AI</small></div></article>
+        <article><span>02</span><h3>0→1 Product Development</h3><p>Business case, discovery, product strategy, roadmap, launch and scale.</p><div><small>MVP Strategy</small><small>Product Discovery</small><small>Scaling</small></div></article>
+        <article><span>03</span><h3>Platform & B2B SaaS</h3><p>Enterprise platforms, multi-team dependencies and reusable workflow capabilities.</p><div><small>Platforms</small><small>B2B SaaS</small><small>APIs</small></div></article>
+        <article><span>04</span><h3>Commercial Product Strategy</h3><p>P&L business cases, pricing, packaging, monetization and portfolio economics.</p><div><small>P&L</small><small>Pricing</small><small>GTM</small></div></article>
+        <article><span>05</span><h3>Product Growth</h3><p>Activation, conversion, adoption, self-service and experimentation.</p><div><small>Funnels</small><small>PLG</small><small>Experimentation</small></div></article>
+        <article><span>06</span><h3>AI Quality & Evaluation</h3><p>Product metrics for autonomy, precision, task completion, safety and correctness.</p><div><small>LLM-as-a-Judge</small><small>Evals</small><small>Quality</small></div></article>
+        <article><span>07</span><h3>Product Leadership</h3><p>Executive alignment, outcome-based roadmaps, OKRs and PM mentorship.</p><div><small>OKRs</small><small>Stakeholders</small><small>Mentoring</small></div></article>
+        <article><span>08</span><h3>Hands-on Prototyping</h3><p>Working prototypes, API orchestration and pragmatic end-to-end product building.</p><div><small>FastAPI</small><small>n8n</small><small>GitHub</small></div></article>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="section shell" id="education">
+      <div class="section-heading">
+        <span>Education & Learning</span>
+        <h2>Building depth continuously</h2>
+      </div>
+      <div class="learning-grid">
+        <article><h3>Bachelor of Engineering</h3><p>Electrical and Electronics Engineering · University of Rajasthan</p></article>
+        <article><h3>AI Product Leadership</h3><p>AI First - Product Leader · AI for Product Management</p></article>
+        <article><h3>Applied AI Systems</h3><p>AI Evaluations for Product Leaders and AI PMs · Building Agentic AI Systems</p></article>
+        <article><h3>Emerging Interfaces</h3><p>Introduction to Augmented Reality & ARCore</p></article>
+      </div>
+    </section>
+
+    <section class="section shell contact" id="contact">
+      <div class="section-heading">
+        <span>Get in Touch</span>
+        <h2>Let’s connect</h2>
+        <p>Open to senior product leadership opportunities and conversations about enterprise AI, platforms and workflow transformation.</p>
+      </div>
+      <div class="contact-grid">
+        <a href="https://www.linkedin.com/in/kirtivaswani/" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>Connect professionally</strong><em>View profile ↗</em></a>
+        <a href="https://github.com/codewithme77" target="_blank" rel="noreferrer"><span>GitHub</span><strong>Explore working products</strong><em>View projects ↗</em></a>
+        <div><span>Location</span><strong>Bengaluru, India</strong><em>Open to relocation</em></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <div><a class="wordmark" href="#top">Kirti Vaswani</a><p>AI & Enterprise Product Leader</p></div>
+    <div><a href="https://www.linkedin.com/in/kirtivaswani/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/codewithme77" target="_blank" rel="noreferrer">GitHub</a></div>
+    <p>© 2026 Kirti Vaswani</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
