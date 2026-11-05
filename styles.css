@@ -73,8 +73,8 @@ h1 em, .section-heading h2 em { color: var(--primary); font-weight: 400; font-st
 .intro-copy p:last-child { margin-bottom: 0; }
 
 .section { padding-block: 120.32px; scroll-margin-top: 72px; }
-.section-heading { margin: 0 0 64px; display: grid; grid-template-columns: minmax(0, 1fr) 384px; grid-template-rows: auto auto; align-items: end; gap: 12px 32px; max-width: none; }
-.section-heading > span { grid-column: 1 / -1; color: var(--primary); font-size: 12px; line-height: 18px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; }
+.section-heading { margin: 0 0 64px; display: block; max-width: none; }
+.section-heading > span { display: inline-block; margin-bottom: 12px; color: var(--primary); font-size: 12px; line-height: 18px; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; }
 .section-heading h2 { max-width: 512px; color: #000; font-size: 48px; line-height: 48px; letter-spacing: -.025em; }
 .section-heading p { max-width: 384px; margin: 0; color: var(--muted); font-size: 16px; line-height: 24px; }
 
